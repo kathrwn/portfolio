@@ -10,3 +10,179 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="shortcut icon" href="imgs/internet_icon.png">
   </head>
+
+<body>
+
+<!-- !PAGE CONTENT! -->
+
+<div class="w3-main w3-animate-opacity" style="margin-left:50px; margin-top:20px;">
+
+
+
+<!-- About section -->
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ </style> 
+
+<div class="w3-container" id="about">
+
+<h1>Kate Kohn</h1>
+
+
+
+
+<p>i am a communications manager @ the federation of american scientists where i focus on digital communications, design, and editorial direction</p>
+</div>
+
+<hr>
+
+<div class="w3-container" id="shenanigans">
+
+<h2>what i do</h2>
+
+<span id="researchb">+</span>  <a onclick="toggledisplay('research'); togglebullet('researchb');">editorial<br/></a>
+
+<div id="research" style="display:none; margin-left: 26px;">
+
+something about editorial direction at FAS
+
+<ul class="arrow">
+
+<li id="p1"><b>wildland fire</b> </li>
+
+<li id="p2"><b>118th Congress</b> </li>
+
+<li id="p3"><b>other editorial</b> </li>
+</ul>
+</div>
+
+
+<span id="pubsb">+</span>  <a onclick="toggledisplay('pubs'); togglebullet('pubsb');">social media<br/></a>
+
+<div id="pubs" style="display:none; margin-left: 26px;">
+<ul class="arrow">
+<b><i>tiktok </i></b>
+
+<ul class="arrow">
+
+  <li>  twice video</li>
+    <ul class="dblarrow">
+    <li> stats for twice video</li>
+    </ul>
+</div>
+
+
+<span id="oldb">+</span> <a id="rclick" onclick="toggledisplay('old'); togglebullet('oldb');">design<br/></a>
+
+<div id="old" style="display:none; margin-left: 26px;">
+see my portfolio here
+</div>
+
+
+<hr>
+
+
+
+<div class="w3-container" id="updates">
+
+<h2>what else i do</h2>
+
+<ul class="arrow">
+
+<li><b>june 2023 - </b> lorem lorem lorem</li> 
+
+<hr>
+
+
+<div class="w3-container" id="contact">
+
+<h2>get in touch</h2>
+
+<p></p>
+
+<p><b>email: </b> k4thrynkohn [at] gmail [dot] com</p>
+
+<div>
+
+<img src="imgs/github_icon.png" style="width:28px;padding: 3px 12px 0px 0px;" alt="Github logo"/>
+
+<a href="https://github.com/aminaxabdu" target="_blank">github</a>
+
+
+<div>
+
+<img src="imgs/linkedin_icon.png" style="width:28px;padding: 3px 12px 0px 0px;" alt="LinkedIn icon"/>
+
+<a href="https://www.linkedin.com/in/aminaabdu/" target="_blank">linkedin</a>
+
+</div>
+
+<div>
+
+<img src="imgs/twitter_icon.png" style="width:28px;padding: 3px 12px 0px 0px;" alt="Twitter icon"/>
+
+<a href="https://twitter.com/aminaxabdu" target="_blank">twitter</a>
+
+</div>
+
+</div>
+
+
+
+<!-- Footer -->
+
+<footer class="w3-container w3-bottom w3-padding">
+
+</footer>
+
+
+
+<!-- End page content -->
+
+</div>
+
+
+
+<script>
+
+// script for toggling display of divs
+
+// from: https://stackoverflow.com/a/8454174/12893290
+
+function toggledisplay(elementID) {
+(function(style) {
+style.display = style.display === 'none' ? '' : 'none';
+
+})(document.getElementById(elementID).style);
+
+}
+
+</script>
+
+<script>
+
+    // script for toggling display of divs
+    
+    // from: https://stackoverflow.com/a/8454174/12893290
+    
+function togglebullet(elementIDb) {
+if (document.getElementById(elementIDb).innerHTML=='+'){    
+    document.getElementById(elementIDb).innerHTML='-';
+}
+else{
+    document.getElementById(elementIDb).innerHTML='+';
+}
+    
+}
+    
+</script>
+    
+
+
+
+
+</body>
+
+</html>
